@@ -1,0 +1,28 @@
+# macOS
+
+.DS_Store
+
+# Python
+
+**pycache**/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environnements virtuels
+
+.venv/
+venv/
+
+# Éditeurs
+
+.vscode/
+.idea/
+
+# Fichiers temporaires
+
+*.log
+*.tmp
+
