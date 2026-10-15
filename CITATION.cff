@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it using the information below."
+
+title: "Computer-assisted verification of stability results for a D1Q3 Lattice Boltzmann scheme"
+type: software
+
+authors:
+- family-names: "Bellotti"
+  given-names: "Thomas"
+  orcid: "https://orcid.org/0000-0002-4139-075X"
+- family-names: "Caetano"
+  given-names: "Filipa"
+- family-names: "Dubois"
+  given-names: "François"
+  orcid: "https://orcid.org/0000-0003-4858-6234"
+- family-names: "Graille"
+  given-names: "Benjamin"
+  orcid: "https://orcid.org/0000-0002-6287-2627"
+
+version: "1.0.0"
+date-released: "2026-10-15"
+
+repository-code: "https://github.com/bgraille/D1Q3_advection_stability"
+
+license: "MIT"
+
+keywords:
+- "computer-assisted proofs"
+- "mathematical verification"
+- "numerical analysis"
+- "lattice Boltzmann methods"
+- "stability analysis"
+- "SageMath"
+- "Python"
+
+abstract: >
+  This software provides computer-assisted verification of mathematical
+  results presented in the associated research paper. It contains SageMath
+  and Python scripts for symbolic and numerical computations, as well as
+  visualization tools used to reproduce and illustrate the results.
+
+references:
+- type: article
+  authors:
+  - family-names: "Bellotti"
+    given-names: "Thomas"
+    orcid: "https://orcid.org/0000-0002-4139-075X"
+  - family-names: "Caetano"
+    given-names: "Filipa"
+  - family-names: "Dubois"
+    given-names: "François"
+    orcid: "https://orcid.org/0000-0003-4858-6234"
+  - family-names: "Graille"
+    given-names: "Benjamin"
+    orcid: "https://orcid.org/0000-0002-6287-2627"
+  title: "Numerical analysis of a Lax-Wendroff type lattice Boltzmann scheme for the advection equation"
+  year: 2026
+  

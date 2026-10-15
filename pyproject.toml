@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "computer-assisted-verification"
+version = "1.0.0"
+description = "Computer-assisted verification of stability results for a D1Q3 Lattice Boltzmann scheme"
+readme = "README.md"
+requires-python = ">=3.12"
+
+authors = [
+    { name = "Thomas Bellotti" },
+    { name = "Filipa Caetano" },
+    { name = "François Dubois" },
+    { name = "Benjamin Graille" },
+]
+
+license = { file = "LICENSE" }
+
+dependencies = [
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "mypy>=1.10",
+]
+
+[project.urls]
+Repository = "https://github.com/bgraille/D1Q3_advection_stability"
