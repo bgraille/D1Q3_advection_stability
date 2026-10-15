@@ -20,6 +20,14 @@ authors:
 version: "1.0.0"
 date-released: "2026-10-15"
 
+identifiers:
+  - description: "All versions of this software"
+    type: doi
+    value: "10.5281/zenodo.23390934"
+  - description: "Version 1.0.0"
+    type: doi
+    value: "10.5281/zenodo.23390935"
+
 repository-code: "https://github.com/bgraille/D1Q3_advection_stability"
 
 license: "MIT"

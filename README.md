@@ -126,6 +126,11 @@ See [`paper/manuscrit.pdf`](paper/manuscrit.pdf) for the manuscript included in 
 * François Dubois
 * Benjamin Graille
 
+## DOI
+
+* Concept DOI (all versions): 10.5281/zenodo.23390934
+* Version 1.0.0: 10.5281/zenodo.23390935
+
 ## Citation
 
 Citation metadata are provided in [`CITATION.cff`](CITATION.cff). Please use the bibliographic information provided there when citing this software.
